@@ -1,12 +1,29 @@
-﻿@{
+﻿@using AppRedis.Entites
+@{
     ViewData["Title"] = "Home Page";
 }
+@model IEnumerable<Product>
 
-  
 <div class="container">
-   
-    @{
-        
-    }
+
+
+    <table class="table">
+        <tr>
+            <th>ردیف  </th>
+            <th>نام محصول</th>
+            <th> توضیحات  </th>
+        </tr>
+
+        @{
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductId</td>
+                    <td>@item.ProductName  </td>
+                    <td>@item.ProductDescription  </td>
+                </tr>
+            }
+        }
+    </table>
 
 </div>

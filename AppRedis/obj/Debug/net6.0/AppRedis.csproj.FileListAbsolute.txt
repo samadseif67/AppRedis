@@ -71,3 +71,4 @@ E:\project\AppRedis\AppRedis\AppRedis\obj\Debug\net6.0\refint\AppRedis.dll
 E:\project\AppRedis\AppRedis\AppRedis\obj\Debug\net6.0\AppRedis.pdb
 E:\project\AppRedis\AppRedis\AppRedis\obj\Debug\net6.0\AppRedis.genruntimeconfig.cache
 E:\project\AppRedis\AppRedis\AppRedis\obj\Debug\net6.0\ref\AppRedis.dll
+E:\project\AppRedis\AppRedis\AppRedis\obj\Debug\net6.0\AppRedis.sourcelink.json

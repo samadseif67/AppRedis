@@ -4,14 +4,26 @@ using System.Runtime.CompilerServices;
 
 namespace AppRedis.Services
 {
+
+    static class ConfigurationManager
+    {
+        public static IConfiguration AppSetting
+        {
+            get;
+        }
+        static ConfigurationManager()
+        {
+            AppSetting = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
+        }
+    }
+
+
     public class ConnectionHelper
     {
-        private IConfiguration configuration;
-         ConnectionHelper(IConfiguration _configuration)
+        static ConnectionHelper()
         {
-            configuration= _configuration;
             ConnectionHelper.lazyConnection = new Lazy<ConnectionMultiplexer>(() => {
-                return ConnectionMultiplexer.Connect(configuration.GetSection("RedisURL").ToString());
+                return ConnectionMultiplexer.Connect(ConfigurationManager.AppSetting["RedisURL"]);
             });
         }
         private static Lazy<ConnectionMultiplexer> lazyConnection;

@@ -7,6 +7,7 @@ using System.Diagnostics;
 
 namespace AppRedis.Controllers
 {
+     
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -21,8 +22,8 @@ namespace AppRedis.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.LstProduct = GetProduct();
-            return View();
+            var LstProduct = GetProduct();
+            return View(LstProduct);
         }
 
         //************************************************************************
