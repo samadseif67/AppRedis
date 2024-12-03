@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AppRedis.props" />
+</Project>
