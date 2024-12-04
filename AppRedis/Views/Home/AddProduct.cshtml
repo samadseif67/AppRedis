@@ -1,0 +1,33 @@
+﻿@using AppRedis.Entites
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<Product>
+
+<div class="container">
+
+    <div class="card">
+        <form asp-controller="Home" asp-action="MyAddProduct" >
+            <div class="card-header">افزودن</div>
+            <div class="card-body">
+
+                <div class="input-group">
+                    
+                    <input type="text" class="form-control" placeholder="نام" name="ProductName" />
+                </div>
+                <div class="input-group">
+                  
+                    <input type="text" class="form-control" placeholder="توضحیات" name="ProductDescription" />
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <input type="submit" value="ثبت" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+
+
+
+</div>
+

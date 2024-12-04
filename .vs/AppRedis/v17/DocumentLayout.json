@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\project\\AppRedis\\AppRedis\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|e:\\project\\appredis\\appredis\\appredis\\views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|solutionrelative:appredis\\views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|e:\\project\\appredis\\appredis\\appredis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|solutionrelative:appredis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|e:\\project\\appredis\\appredis\\appredis\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|solutionrelative:appredis\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|e:\\project\\appredis\\appredis\\appredis\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB15D79-7817-47EA-9C48-FBD6FB429842}|AppRedis\\AppRedis.csproj|solutionrelative:appredis\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppRedis\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AppRedis\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T13:14:17.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Views\\Home\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "AppRedis\\Views\\Home\\AddProduct.cshtml",
+              "ToolTip": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Views\\Home\\AddProduct.cshtml",
+              "RelativeToolTip": "AppRedis\\Views\\Home\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T12:40:07.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AppRedis\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AppRedis\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAAuAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvxYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:37:18.322Z",
+              "WhenOpened": "2024-12-04T12:14:41.58Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Services\\CacheService.cs",
+              "RelativeDocumentMoniker": "AppRedis\\Services\\CacheService.cs",
+              "ToolTip": "E:\\project\\AppRedis\\AppRedis\\AppRedis\\Services\\CacheService.cs",
+              "RelativeToolTip": "AppRedis\\Services\\CacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:14:41.593Z"
             }
           ]
         }

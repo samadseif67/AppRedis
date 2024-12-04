@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace AppRedis.Controllers
 {
-     
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -28,9 +28,19 @@ namespace AppRedis.Controllers
 
         //************************************************************************
 
+        [HttpGet]
+        public ActionResult AddProduct()
+        {
+            return View();
+        }
 
 
-
+        [HttpPost]
+        public async Task<ActionResult> MyAddProduct(Product product)
+        {
+            await AddProduct(product);
+            return RedirectToAction("Index");
+        }
 
 
 
@@ -75,7 +85,7 @@ namespace AppRedis.Controllers
             _cacheService.RemoveData("product");
             _dbContext.SaveChanges();
         }
-         
+
 
         //***********************************************************************
 
